@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<title>✨ChatKaro👨‍💻</title>-->
+    <script defer src= "http://localhost:9000/socket.io/socket.io.js"></script>
+    <script defer src = "js/bundle.js"></script>
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- <h1>✨ChatKaro👨‍💻</h1>-->
+    <nav>
+        <img class= "logo" src="chat.jpg" alt="">
+    </nav>
+</br>
+    <div id = "result"></div>
+    <div class="container">
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">&nbsp;<button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAcRhFRIhc0ZYg3683HWYBQBWl8OZPUyq4",
+          authDomain: "privacy-protector-76800.firebaseapp.com",
+          projectId: "privacy-protector-76800",
+          storageBucket: "privacy-protector-76800.appspot.com",
+          messagingSenderId: "978728394802",
+          appId: "1:978728394802:web:1dc3f0daed157cae955c2b",
+          measurementId: "G-WXV2MEC1JB"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>

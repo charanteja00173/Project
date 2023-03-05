@@ -1,0 +1,73 @@
+.logo{
+    box-shadow: 50px;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    border-radius: 6px;
+}
+h1{
+    margin: 12px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 6px;
+    /* background-color: aliceblue; */
+}
+
+.message{
+    background-color: rgb(240, 234, 234);
+    width: 30%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float:left;
+    clear:both;
+}
+
+.right{
+    float:right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 94%;
+    display: initial;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 36px;
+}
+body{
+    height:98vh;
+    background-image: linear-gradient(rgb(192, 195, 197), rgb(15, 150, 213));
+    /* background-image: url('https://th.bing.com/th/id/OIP.uo_YvtF_7KC-Sgd7oiMlNAHaFj?w=249&h=187&c=7&r=0&o=5&pid=1.7'); */
+}
